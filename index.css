@@ -1,0 +1,136 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Outfit", sans-serif;
+	font-size: 15px;
+}
+#fondoLightGray {
+	background-color: hsl(212, 45%, 89%);
+	/* border: solid red; */
+	/* width: 375px;
+	height: 667px; */
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#fondoBlanco {
+	background-color: hsl(0, 0%, 100%);
+	/* border: solid magenta; */
+	width: 325px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	border-radius: 5%;
+}
+img {
+	height: 290px;
+	width: 290px;
+	border-radius: 5%;
+	margin-top: 18px;
+	display: flex;
+	position: relative;
+}
+#arriba {
+	/* border: solid red; */
+	width: 365px;
+	height: 60px;
+	position: absolute;
+	margin-top: 330px;
+}
+#abajo {
+	width: 365px;
+	height: 60px;
+	position: absolute;
+	margin-top: 400px;
+}
+#arriba p {
+	font-family: "Outfit", sans-serif;
+	text-align: center;
+	/* width: 261px; */
+	margin: 0px 60px;
+	font-weight: 700;
+	font-size: 20px;
+	/* border: solid red; */
+}
+#abajo p {
+	font-family: "Outfit", sans-serif;
+	text-align: center;
+	/* width: 261px; */
+	margin: 0px 60px;
+	font-weight: 400;
+	font-size: 15px;
+	color: hsl(220, 15%, 55%);
+	/* border: solid red; */
+}
+.clearfix {
+	clear: both;
+}
+@media screen and (min-width: 376px) {
+	* {
+		margin: 0px;
+		padding: 0px;
+		font-family: "Outfit", sans-serif;
+		font-size: 15px;
+	}
+	#fondoLightGray {
+		background-color: hsl(212, 45%, 89%);
+		/* background-color: magenta; */
+		/* border: solid red; */
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#fondoBlanco {
+		background-color: hsl(0, 0%, 100%);
+		/* border: solid magenta; */
+		width: 325px;
+		height: 500px;
+		display: flex;
+		justify-content: center;
+		border-radius: 5%;
+	}
+	img {
+		height: 290px;
+		width: 290px;
+		border-radius: 5%;
+		margin-top: 18px;
+		display: flex;
+		position: relative;
+	}
+	#arriba {
+		width: 247px;
+		height: 60px;
+		position: absolute;
+		margin-top: 330px;
+	}
+	#abajo {
+		width: 247px;
+		height: 60px;
+		position: absolute;
+		margin-top: 400px;
+	}
+	#arriba p {
+		font-family: "Outfit", sans-serif;
+		text-align: center;
+		/* width: 261px; */
+		margin: 0px 0px;
+		font-weight: 700;
+		font-size: 20px;
+	}
+	#abajo p {
+		font-family: "Outfit", sans-serif;
+		text-align: center;
+		/* width: 261px; */
+		margin: 0px 0px;
+		font-weight: 400;
+		font-size: 15px;
+		color: hsl(220, 15%, 55%);
+	}
+	.clearfix {
+		clear: both;
+	}
+}
